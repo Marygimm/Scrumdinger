@@ -59,13 +59,13 @@
 		574F3DCB28E79B69008FB795 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				574F3DE128E8AE3A008FB795 /* TrailingIconLabelStyle.swift */,
 				574F3DDF28E8ACCF008FB795 /* CardView.swift */,
 				574F3DDA28E8AC69008FB795 /* Models */,
 				574F3DCC28E79B69008FB795 /* ScrumdingerApp.swift */,
 				574F3DCE28E79B69008FB795 /* MeetingView.swift */,
 				574F3DD028E79B6B008FB795 /* Assets.xcassets */,
 				574F3DD228E79B6B008FB795 /* Preview Content */,
-				574F3DE128E8AE3A008FB795 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
