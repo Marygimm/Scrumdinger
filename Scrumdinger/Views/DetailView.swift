@@ -34,6 +34,13 @@ struct DetailView: View {
                 .background(scrum.theme.mainColor)
                 .cornerRadius(4)
             }
+            Section(header: Text("Attendees")) {
+                ForEach(scrum.attendees) { attende in
+                    Label(attende.name, systemImage: "person")
+
+                    
+                }
+            }
         }
     }
 }
