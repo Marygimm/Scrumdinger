@@ -26,6 +26,7 @@
 		574F3DF728EAF70D008FB795 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3DF628EAF70D008FB795 /* MeetingFooterView.swift */; };
 		574F3DF928EAF85F008FB795 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3DF828EAF85F008FB795 /* AVPlayer+Ding.swift */; };
 		574F3DFB28EAFB4D008FB795 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3DFA28EAFB4D008FB795 /* History.swift */; };
+		574F3DFD28EAFCC5008FB795 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3DFC28EAFCC5008FB795 /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		574F3DF628EAF70D008FB795 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		574F3DF828EAF85F008FB795 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		574F3DFA28EAFB4D008FB795 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		574F3DFC28EAFCC5008FB795 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				574F3DF428EAF626008FB795 /* ScrumTimer.swift */,
 				574F3DF828EAF85F008FB795 /* AVPlayer+Ding.swift */,
 				574F3DFA28EAFB4D008FB795 /* History.swift */,
+				574F3DFC28EAFCC5008FB795 /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				574F3DEF28EAE909008FB795 /* ThemePicker.swift in Sources */,
 				574F3DDE28E8ACA9008FB795 /* DailyScrum.swift in Sources */,
 				574F3DF728EAF70D008FB795 /* MeetingFooterView.swift in Sources */,
+				574F3DFD28EAFCC5008FB795 /* ScrumStore.swift in Sources */,
 				574F3DF528EAF626008FB795 /* ScrumTimer.swift in Sources */,
 				574F3DE828E8E83C008FB795 /* DetailView.swift in Sources */,
 				574F3DF128EAF417008FB795 /* MeetingHeaderView.swift in Sources */,
