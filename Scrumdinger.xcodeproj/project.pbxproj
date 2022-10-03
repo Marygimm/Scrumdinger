@@ -33,6 +33,7 @@
 		574F3E0528EB21A5008FB795 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3E0428EB21A5008FB795 /* SpeakerArc.swift */; };
 		574F3E0828EB2D91008FB795 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 574F3E0728EB2D91008FB795 /* ding.wav */; };
 		574F3E0A28EB2E6C008FB795 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3E0928EB2E6C008FB795 /* SpeechRecognizer.swift */; };
+		574F3E0C28EB2FB5008FB795 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3E0B28EB2FB5008FB795 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		574F3E0428EB21A5008FB795 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		574F3E0728EB2D91008FB795 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		574F3E0928EB2E6C008FB795 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		574F3E0B28EB2FB5008FB795 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				574F3DF628EAF70D008FB795 /* MeetingFooterView.swift */,
 				574F3E0028EB0317008FB795 /* ErrorView.swift */,
 				574F3E0228EB2036008FB795 /* MeetingTimerView.swift */,
+				574F3E0B28EB2FB5008FB795 /* HistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				574F3DFB28EAFB4D008FB795 /* History.swift in Sources */,
+				574F3E0C28EB2FB5008FB795 /* HistoryView.swift in Sources */,
 				574F3DEF28EAE909008FB795 /* ThemePicker.swift in Sources */,
 				574F3DDE28E8ACA9008FB795 /* DailyScrum.swift in Sources */,
 				574F3DF728EAF70D008FB795 /* MeetingFooterView.swift in Sources */,
