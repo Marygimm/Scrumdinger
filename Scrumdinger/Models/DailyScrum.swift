@@ -9,9 +9,9 @@ import Foundation
 
 struct DailyScrum: Identifiable {
     let id: UUID
-    let title: String
-    let attendees: [Attendee]
-    let lengthInMinutes: Int
+    var title: String
+    var attendees: [Attendee]
+    var lengthInMinutes: Int
     var theme: Theme
     
     init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
@@ -45,6 +45,13 @@ extension DailyScrum {
     
     var data: Data {
         Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), theme: theme)
+    }
+    
+    mutating func update(from data: Data) {
+        title = data.title
+        attendees = data.attendees
+        lengthInMinutes = Int(data.lengthInMinutes)
+        theme = data.theme
     }
 }
 
