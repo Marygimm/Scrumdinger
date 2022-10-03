@@ -21,6 +21,7 @@
 		574F3DED28EAE830008FB795 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3DEC28EAE830008FB795 /* ThemeView.swift */; };
 		574F3DEF28EAE909008FB795 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3DEE28EAE909008FB795 /* ThemePicker.swift */; };
 		574F3DF128EAF417008FB795 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3DF028EAF417008FB795 /* MeetingHeaderView.swift */; };
+		574F3DF328EAF565008FB795 /* SrcumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3DF228EAF565008FB795 /* SrcumProgressViewStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		574F3DEC28EAE830008FB795 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		574F3DEE28EAE909008FB795 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		574F3DF028EAF417008FB795 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		574F3DF228EAF565008FB795 /* SrcumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrcumProgressViewStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				574F3DEC28EAE830008FB795 /* ThemeView.swift */,
 				574F3DEE28EAE909008FB795 /* ThemePicker.swift */,
 				574F3DF028EAF417008FB795 /* MeetingHeaderView.swift */,
+				574F3DF228EAF565008FB795 /* SrcumProgressViewStyle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				574F3DE828E8E83C008FB795 /* DetailView.swift in Sources */,
 				574F3DF128EAF417008FB795 /* MeetingHeaderView.swift in Sources */,
 				574F3DEB28EAE420008FB795 /* DetailEditView.swift in Sources */,
+				574F3DF328EAF565008FB795 /* SrcumProgressViewStyle.swift in Sources */,
 				574F3DE228E8AE3A008FB795 /* TrailingIconLabelStyle.swift in Sources */,
 				574F3DDC28E8AC75008FB795 /* Theme.swift in Sources */,
 				574F3DE628E8B0A3008FB795 /* ScrumsView.swift in Sources */,
