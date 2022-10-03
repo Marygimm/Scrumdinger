@@ -1,9 +1,6 @@
-//
-//  ScrumdingerApp.swift
-//  Scrumdinger
-//
-//  Created by Mary Moreira on 30/09/2022.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
 
 import SwiftUI
 
@@ -13,8 +10,14 @@ struct ScrumdingerApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView{
-                ScrumsView(scrums: $store.scrums)
+            NavigationView {
+                ScrumsView(scrums: $store.scrums) {
+                    ScrumStore.save(scrums: store.scrums) { result in
+                        if case .failure(let error) = result {
+                            fatalError(error.localizedDescription)
+                        }
+                    }
+                }
             }
             .onAppear {
                 ScrumStore.load { result in
