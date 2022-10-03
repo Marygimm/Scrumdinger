@@ -31,6 +31,7 @@
 		574F3E0128EB0317008FB795 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3E0028EB0317008FB795 /* ErrorView.swift */; };
 		574F3E0328EB2036008FB795 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3E0228EB2036008FB795 /* MeetingTimerView.swift */; };
 		574F3E0528EB21A5008FB795 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3E0428EB21A5008FB795 /* SpeakerArc.swift */; };
+		574F3E0828EB2D91008FB795 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 574F3E0728EB2D91008FB795 /* ding.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		574F3E0028EB0317008FB795 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		574F3E0228EB2036008FB795 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		574F3E0428EB21A5008FB795 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
+		574F3E0728EB2D91008FB795 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		574F3DCB28E79B69008FB795 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				574F3E0628EB2D6B008FB795 /* Resources */,
 				574F3DE428E8B090008FB795 /* Styles */,
 				574F3DE328E8B087008FB795 /* Views */,
 				574F3DDA28E8AC69008FB795 /* Models */,
@@ -151,6 +154,14 @@
 			path = Styles;
 			sourceTree = "<group>";
 		};
+		574F3E0628EB2D6B008FB795 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				574F3E0728EB2D91008FB795 /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -209,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574F3E0828EB2D91008FB795 /* ding.wav in Resources */,
 				574F3DD428E79B6B008FB795 /* Preview Assets.xcassets in Resources */,
 				574F3DD128E79B6B008FB795 /* Assets.xcassets in Resources */,
 			);
