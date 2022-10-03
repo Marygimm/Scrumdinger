@@ -19,6 +19,7 @@
 		574F3DE828E8E83C008FB795 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3DE728E8E83C008FB795 /* DetailView.swift */; };
 		574F3DEB28EAE420008FB795 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3DEA28EAE420008FB795 /* DetailEditView.swift */; };
 		574F3DED28EAE830008FB795 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3DEC28EAE830008FB795 /* ThemeView.swift */; };
+		574F3DEF28EAE909008FB795 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F3DEE28EAE909008FB795 /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		574F3DE728E8E83C008FB795 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		574F3DEA28EAE420008FB795 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		574F3DEC28EAE830008FB795 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		574F3DEE28EAE909008FB795 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				574F3DE728E8E83C008FB795 /* DetailView.swift */,
 				574F3DEA28EAE420008FB795 /* DetailEditView.swift */,
 				574F3DEC28EAE830008FB795 /* ThemeView.swift */,
+				574F3DEE28EAE909008FB795 /* ThemePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574F3DEF28EAE909008FB795 /* ThemePicker.swift in Sources */,
 				574F3DDE28E8ACA9008FB795 /* DailyScrum.swift in Sources */,
 				574F3DE828E8E83C008FB795 /* DetailView.swift in Sources */,
 				574F3DEB28EAE420008FB795 /* DetailEditView.swift in Sources */,
